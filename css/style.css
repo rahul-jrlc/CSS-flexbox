@@ -20,6 +20,7 @@ body {
     flex-direction: row;  /* DEFAULT */
     /* flex-direction: column; */
     gap: 20px;
+    flex-flow: row nowrap; /*FLEX-FLOW: FLEX-DIRECTION FLEX-WRAP*/
     
 }
 
@@ -30,9 +31,3 @@ body {
     border-radius: 10px;
 }
 
-.box-1 {
-    /* flex-grow: 2;
-    flex-shrink: 3;
-    flex-basis: 200px; */
-    flex: 2 3 200px;  /* FLEX SHORTHAND: GROW SHRINK FLEX-BASIS*/
-}
