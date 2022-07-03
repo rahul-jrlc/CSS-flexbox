@@ -19,10 +19,8 @@ body {
     flex-wrap: wrap;
     flex-direction: row;  /* DEFAULT */
     gap: 20px;
+    justify-content: flex-end;
     align-content: center;
-    align-content: flex-end;
-    align-content: flex-start;
-    align-content: space-between;
-    align-content: space-around;
-    align-content: space-evenly;
+    place-content: center flex-end; /* SHORTHAND: ALIGN-CONTENT, JUSTIFY-CONTENT*/
+  
 }
