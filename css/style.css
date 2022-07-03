@@ -17,7 +17,10 @@ body {
     display: flex;
     flex-direction: row;  /* DEFAULT */
     gap: 20px;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse;
     flex-direction: column;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; */
+    justify-content: flex-start; /* DEFAULT */
+    justify-content: flex-end;
+    justify-content: center;
 }
