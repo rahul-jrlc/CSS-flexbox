@@ -24,20 +24,17 @@ body {
 }
 
 .box-1 {
-    align-self: center;
-
+    order: 3;  /* REARRANGE FLEX ITEMS INSIDE THE FLEX-CONTAINER*/
 }
 
 .box-2 {
-    align-self: flex-start;
-
+    order: 1;
 }
 
 .box-3 {
-    align-self: flex-end; /* ALIGN ITEMS IS USED TO MOVE INDIVIDUAL FLEX-ITEMS*/
-
+    order: 2;
 }
 
 .box-4 {
-
+    order: 0;
 }
